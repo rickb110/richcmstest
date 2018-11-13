@@ -33,13 +33,15 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
+   plugins: [
+    '~/plugins/components'
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
+    ['storyblok-nuxt', {accessToken: 'E3Mn9rVnKxAUtOcfZ2wl5Att', cacheProvider: 'memory'}] 
   ],
 
   /*
